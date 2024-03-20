@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data List</title>
+  <link rel="stylesheet" href="styledb.css">
+</head>
+<body>
+  <h1>Data List</h1>
+  <div class="form">
+    <label for="term">Term:</label>
+    <input type="text" id="term" placeholder="Enter term">
+    <label for="description">Description:</label>
+    <input type="text" id="description" placeholder="Enter description">
+    <button id="add-button">Add Data</button>
+  </div>
+  <div class="table-container">
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th>Term</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody id="data-body">
+        <!-- Data will be dynamically inserted here -->
+      </tbody>
+    </table>
+  </div>
+  <script src="scriptdb.js"></script>
+</body>
+</html>
+ 
